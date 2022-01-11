@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sp_tạo nhiều user bằng file cùng lúc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e390fad-bd8c-4225-940c-4928802b73cc</testCaseGuid>
+   <variable>
+      <defaultValue>'username'</defaultValue>
+      <description></description>
+      <id>4435f6e9-4d1b-4576-8cc2-44c6a6dc1334</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Student\r\n'</defaultValue>
+      <description></description>
+      <id>a798e56f-3392-410d-8c93-a186676dbf5c</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'student\r\n'</defaultValue>
+      <description></description>
+      <id>d4d4c4a2-d9af-41d8-a025-5e4266959954</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'s1@gmail.com'</defaultValue>
+      <description></description>
+      <id>23efd0cb-ee80-4a74-95a9-c774c618d83e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'pass'</defaultValue>
+      <description></description>
+      <id>dbe04a5d-a355-4958-acf9-3c4dfa9c1a9d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

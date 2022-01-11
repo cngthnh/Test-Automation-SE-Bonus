@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5_tạo tài khoản với mật khẩu không theo chuẩn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e524d6e6-82db-4f97-95ab-a2a3b5e077c5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>themSinhVien</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f59df123-844f-4c01-9f50-d08f2a0731ee</testSuiteGuid>
+   <testCaseLink>
+      <guid>e2172937-8212-4c79-91a3-9b1c9f1f5c9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/sp_tạo nhiều user bằng file cùng lúc</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4c2a1949-a64d-4d6b-bf43-915537e012ff</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ThemSinhVien</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4c2a1949-a64d-4d6b-bf43-915537e012ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>4435f6e9-4d1b-4576-8cc2-44c6a6dc1334</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c2a1949-a64d-4d6b-bf43-915537e012ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>dbe04a5d-a355-4958-acf9-3c4dfa9c1a9d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c2a1949-a64d-4d6b-bf43-915537e012ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>a798e56f-3392-410d-8c93-a186676dbf5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c2a1949-a64d-4d6b-bf43-915537e012ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>d4d4c4a2-d9af-41d8-a025-5e4266959954</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c2a1949-a64d-4d6b-bf43-915537e012ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>23efd0cb-ee80-4a74-95a9-c774c618d83e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
