@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>aut_se_bonus</name>
+   <name>Test Automation - SE Bonus</name>
    <tag></tag>
    <UUID>34e58307-bc48-439a-a032-418f6c787f0a</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\nam 3\aut_se_bonus\aut_se_bonus.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\congt\git\Test-Automation-SE-Bonus\Test-Automation-SE-Bonus.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
