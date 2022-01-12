@@ -35,8 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_AI Assignment 2/button_Add su
 
 WebUI.click(findTestObject('Object Repository/Page_AI Assignment 2 - Edit submission/input_Online text_submitbutton'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Assignment 2 - Edit submission/div_Nothing was submitted'), 
-    '×\n Nothing was submitted')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Assignment 2 - Edit submission/div_Nothing was submitted'))
 
 WebUI.closeBrowser()
 

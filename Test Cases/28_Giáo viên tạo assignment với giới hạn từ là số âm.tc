@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>28_Giáo viên tạo assignment với giới hạn từ là 0</name>
+   <name>28_Giáo viên tạo assignment với giới hạn từ là số âm</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>94df0398-a52e-4b12-ba44-54e81f39ca9d</testCaseGuid>

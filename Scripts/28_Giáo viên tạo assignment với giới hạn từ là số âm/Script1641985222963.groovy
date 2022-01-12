@@ -66,18 +66,12 @@ WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/sp
 
 WebUI.click(findTestObject('Object Repository/Page_AI Assignment 1/button_Add submission'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AI Assignment 1 - Edit submission/div_Hello'), '<p dir="ltr" style="text-align: left;" id="yui_3_17_2_1_1641967749165_517">Hello</p>')
+WebUI.setText(findTestObject('Object Repository/Page_AI Assignment 1 - Edit submission/div_Hello'), 'Hello')
 
 WebUI.click(findTestObject('Object Repository/Page_AI Assignment 1 - Edit submission/input_Online text_submitbutton'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Assignment 1 - Edit submission/div_The word limit for this assignment is -_f3e7e7'), 
-    '×\n The word limit for this assignment is -10 words and you are attempting to submit 1 words. Please review your submission and try again.')
-
 WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Assignment 1 - Edit submission/span_The word limit for this assignment is _018888'), 
     'The word limit for this assignment is -10 words and you are attempting to submit 1 words. Please review your submission and try again.')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Assignment 1 - Edit submission/div_Nothing was submitted'), 
-    '×\n Nothing was submitted')
 
 WebUI.closeBrowser()
 

@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_HCMUS Log in to th
 
 WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/button_Log in'))
 
+WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/button_End tour'), FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource'))
@@ -60,7 +62,7 @@ WebUI.click(findTestObject('Object Repository/Page_Editing quiz Quiz 1/input_Des
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing a TrueFalse question/input_Question name_name'), 'Cau 1')
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing a TrueFalse question/div_Dung hay sai'), '<p dir="ltr" style="text-align: left;">Dung hay sai</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Editing a TrueFalse question/div_Dung hay sai'), 'Dung hay sai')
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing a TrueFalse question/input_ID number_idnumber'), '1')
 

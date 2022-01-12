@@ -35,14 +35,14 @@ WebUI.click(findTestObject('Object Repository/Page_Forum 1/a_Add a new discussio
 
 WebUI.setText(findTestObject('Object Repository/Page_Forum 1/input_Subject_subject'), 'Topic 1')
 
-WebUI.setText(findTestObject('Object Repository/Page_Forum 1/div_Xin chao cac ban'), '<p dir="ltr" style="text-align: left;" id="yui_3_17_2_1_1641967105117_507">Xin chao cac ban</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Forum 1/div_Xin chao cac ban'), 'Xin chao cac ban')
 
 WebUI.click(findTestObject('Object Repository/Page_Forum 1/input_Message_submitbutton'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Forum 1/p_Your post was successfully added'), 'Your post was successfully added.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Forum 1/div_Topic 1                                _79d318'), 
-    'Topic 1\n \n \n \n Locked')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Forum 1/p_Student Walston will be notified of new p_d70a29'), 
+    'Student Walston will be notified of new posts in \'Topic 1\' of \'Forum 1\'')
 
 WebUI.closeBrowser()
 

@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new top
 
 WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Thong bao 1')
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_Noi dung thong bao'), '<p dir="ltr" style="text-align: left;">Noi dung thong bao</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_Noi dung thong bao'), 'Noi dung thong bao')
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Message_submitbutton'))
 

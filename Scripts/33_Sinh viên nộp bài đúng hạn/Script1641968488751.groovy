@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/sp
 
 WebUI.click(findTestObject('Object Repository/Page_AI Assignment 2/button_Add submission'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AI Assignment 2 - Edit submission/div_Noi dung bai nop'), '<p dir="ltr" style="text-align: left;">Noi dung bai nop</p>')
+WebUI.setText(findTestObject('Object Repository/Page_AI Assignment 2 - Edit submission/div_Noi dung bai nop'), 'Noi dung bai nop')
 
 WebUI.click(findTestObject('Object Repository/Page_AI Assignment 2 - Edit submission/input_Online text_submitbutton'))
 

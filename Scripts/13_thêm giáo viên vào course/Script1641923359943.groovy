@@ -42,24 +42,9 @@ WebUI.setText(findTestObject('Object Repository/Page_AI Participants/input_No se
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Teacher Hubbard'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
-    '16', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
-    '16', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
-    '16', true)
-
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Teacher Morrill'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
-    '17', true)
-
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Teacher Quarles'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
-    '18', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Manager            Teacher          _ffc00f'), 
     '3', true)
