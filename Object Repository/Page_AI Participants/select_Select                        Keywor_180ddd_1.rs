@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='core_user-local-participantsfilter-filterrow-filtertype-61ddc4346f09e61ddc4343e94328']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter type'])[1]/following::select[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#core_user-local-participantsfilter-filterrow-filtertype-61ddc4346f09e61ddc4343e94328</value>
+         <value>#core_user-local-participantsfilter-filterrow-filtertype-61de502fe85eb61de502fc95cd28</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>core_user-local-participantsfilter-filterrow-filtertype-61ddc4346f09e61ddc4343e94328</value>
+      <value>core_user-local-participantsfilter-filterrow-filtertype-61de502fe85eb61de502fc95cd28</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,21 +62,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;core_user-local-participantsfilter-filterrow-filtertype-61ddc4346f09e61ddc4343e94328&quot;)</value>
+      <value>id(&quot;core_user-local-participantsfilter-filterrow-filtertype-61de502fe85eb61de502fc95cd28&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='core_user-local-participantsfilter-filterrow-filtertype-61ddc4346f09e61ddc4343e94328']</value>
+      <value>//select[@id='core_user-local-participantsfilter-filterrow-filtertype-61de502fe85eb61de502fc95cd28']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641923636454_20']/select</value>
+      <value>//div[@id='yui_3_17_2_1_1641959471955_20']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,5 +112,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='core_user-local-participantsfilter-filterrow-filtertype-61ddc4346f09e61ddc4343e94328']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641923636454_20']/select</value>
    </webElementXpaths>
 </WebElementEntity>

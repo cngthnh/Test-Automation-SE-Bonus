@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641921965577_767']/span/span/em</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='New password'])[1]/following::em[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

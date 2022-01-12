@@ -1,0 +1,14 @@
+username,firstname,lastname,email,password
+student1,Student,Waldrop,s1@example.com,Mstudent1#
+student2,Student,Epperson,s2@example.com,Mstudent2#
+student3,Student,Walston,s3@example.com,Mstudent3#
+student4,Student,Tremblay,s4@example.com,Mstudent4#
+student5,Student,Weller,s5@example.com,Mstudent5#
+student6,Student,Haller,s6@example.com,Mstudent6#
+student7,Student,Venegas,s7@example.com,Mstudent7#
+student8,Student,Clifford,s8@example.com,Mstudent8#
+student9,Student,Branch,s9@example.com,Mstudent9#
+student10,Student,Kessler,s10@example.com,Mstudent10#
+teacher1,Teacher,Hubbard,t1@example.com,Mteacher1#
+teacher2,Teacher,Morrill,t2@example.com,Mteacher2#
+teacher3,Teacher,Quarles,t3@example.com,Mteacher3#

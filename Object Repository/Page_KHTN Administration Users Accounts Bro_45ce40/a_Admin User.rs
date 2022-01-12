@@ -124,7 +124,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641916482962_572']/a</value>
+      <value>//div[@id='yui_3_17_2_1_1641955874708_551']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,5 +160,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div/div/div/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641916482962_572']/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -35,8 +35,6 @@ WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_Add a new course'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KHTN Add a new course/div_1 1'), '1 <p>1</p>')
-
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Add a new course/input_Course full name_fullname'), 'Nhập môn trí tuệ nhân tạo')
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Add a new course/input_Course short name_shortname'), 'AI')

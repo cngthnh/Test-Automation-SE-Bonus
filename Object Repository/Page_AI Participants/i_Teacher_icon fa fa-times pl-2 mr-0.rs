@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_autocomplete_selection-1641923549994']/span/i</value>
+         <value>//fieldset/div/div[2]/div[2]/span/i</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;core_user-participantsfilter-61ddc4346f09e61ddc4343e94328&quot;)/div[@class=&quot;d-flex&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <value>id(&quot;core_user-participantsfilter-61de4cc9c994a61de4cc9ac51628&quot;)/div[@class=&quot;d-flex&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='core_user-participantsfilter-61ddc4346f09e61ddc4343e94328']/div[3]/button[3]</value>
+      <value>//div[@id='core_user-participantsfilter-61de4cc9c994a61de4cc9ac51628']/div[3]/button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='core_user-participantsfilter-61ddc4346f09e61ddc4343e94328']/div[3]/button[3]</value>
    </webElementXpaths>
 </WebElementEntity>

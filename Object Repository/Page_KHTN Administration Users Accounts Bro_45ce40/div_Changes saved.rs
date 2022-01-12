@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='user-notifications']/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Blocks editing on'])[1]/following::div[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

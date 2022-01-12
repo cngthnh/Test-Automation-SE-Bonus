@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[@id='user-index-participants-9_r0_c2']</value>
+         <value>//td[@id='user-index-participants-2_r0_c2']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#user-index-participants-9_r0_c2</value>
+         <value>#user-index-participants-2_r0_c2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user-index-participants-9_r0_c2</value>
+      <value>user-index-participants-2_r0_c2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,21 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;user-index-participants-9_r0_c2&quot;)</value>
+      <value>id(&quot;user-index-participants-2_r0_c2&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//td[@id='user-index-participants-9_r0_c2']</value>
+      <value>//td[@id='user-index-participants-2_r0_c2']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='user-index-participants-9_r0']/td[2]</value>
+      <value>//tr[@id='user-index-participants-2_r0']/td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='user-index-participants-9_r0_c2']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='user-index-participants-9_r0']/td[2]</value>
    </webElementXpaths>
 </WebElementEntity>

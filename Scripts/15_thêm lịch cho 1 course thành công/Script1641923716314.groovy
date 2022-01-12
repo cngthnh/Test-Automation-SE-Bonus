@@ -35,16 +35,21 @@ WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to')
 
 WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/span_Calendar'))
 
-WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/td_No events, Wednesday, 19 January        _99829a'))
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/span_February 2022'))
+
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_New event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/input_Event title_name'), 
-    'làm quizz')
+    'su kien 1')
 
-WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_Save_1_2_3'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/div_1 event, Wednesday, 19 January         _6eeec2'))
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_Month'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/a_19'))
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/a_Upcoming events_1_2'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/h3_su kien 1'), 
+    'su kien 1')
 
 WebUI.closeBrowser()
 

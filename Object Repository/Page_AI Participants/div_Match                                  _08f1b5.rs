@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641923549789_20']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter 1'])[1]/following::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

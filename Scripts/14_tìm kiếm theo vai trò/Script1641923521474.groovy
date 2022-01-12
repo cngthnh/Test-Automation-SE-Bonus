@@ -35,115 +35,50 @@ WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to')
 
 WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/span_Participants'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Select                        Keywor_180ddd'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Select            Keyword           _1df56e'), 
     'roles', true)
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_'))
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_'))
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_'))
+WebUI.setText(findTestObject('Object Repository/Page_AI Participants/input_Roles_form_autocomplete_input-1641958602006'), 
+    'Teacher')
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Teacher'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
     '3', true)
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/div_Match                                  _08f1b5'))
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/i_Teacher_icon fa fa-times pl-2 mr-0'))
-
-WebUI.deselectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
     '3', true)
 
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost/')
-
-WebUI.click(findTestObject('Object Repository/Page_HCMUS/nav_Side panel                             _87ec86'))
-
-WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Log in'))
-
-WebUI.setText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Username_username'), 'admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Password_password'), '5MU2PI2jvJCK/lBTYOwt6g==')
-
-WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
-
-WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/span_Participants'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Select                        Keywor_180ddd_1'), 
-    'roles', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span__1'))
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
+    '3', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+    '3', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+    '3', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+    '3', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+    '3', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+    '3', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+    '3', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Apply filters_1'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/p_3 participants found'), '3 participants found')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_No roles                    Manager _431b74'), 
-    '5', true)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_t1example.com'), 't1@example.com')
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Apply filters'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_t2example.com'), 't2@example.com')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Participants/td_s9example.com'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_t3example.com'), 't3@example.com')
 
 WebUI.closeBrowser()
 

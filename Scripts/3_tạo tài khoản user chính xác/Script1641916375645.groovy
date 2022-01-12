@@ -60,9 +60,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_KHTN Administr
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Student Waldrop'), 
-    0)
-
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User'))
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out'))

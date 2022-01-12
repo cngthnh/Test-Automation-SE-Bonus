@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>007f4a09-35e2-4d69-bfd3-2366382f4b18</dataFileGUID>
-   <dataSourceUrl>C:\Users\Admin\Desktop\user.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/example.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>example</sheetName>

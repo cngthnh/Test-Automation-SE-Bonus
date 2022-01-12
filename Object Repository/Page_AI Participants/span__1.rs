@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_autocomplete_downarrow-1641923636684']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[2]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

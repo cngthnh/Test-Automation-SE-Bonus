@@ -31,126 +31,99 @@ WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/butt
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
 
-WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to'))
+WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/span_Participants'))
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/input_Participants_btn btn-secondary my-1'))
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_'))
+WebUI.setText(findTestObject('Object Repository/Page_AI Participants/input_No selection_form_autocomplete_input-_6680aa'), 
+    'Student')
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s9example.com'))
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Branch    s9example.com'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '25', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s8example.com'))
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Student Clifford'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '24', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Student Clifford_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s2example.com'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/small_s2example.com_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '15', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s6example.com'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/small_s6example.com_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '22', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s10example.com'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/small_s10example.com_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '26', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s4example.com'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/small_s4example.com_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '20', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s7example.com'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/small_s7example.com_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '23', true)
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/span_s3example.com_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '19', true)
-
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Student Waldrop'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/span_Student Waldrop_1'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
     '14', true)
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_s5example.com'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_AI Participants/small_s5example.com_1'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _e9cf21'), 
-    '21', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Enrol users'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Participants/a_Student Branch'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Participants/td_s5example.com'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '14', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Clifford    s8example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '13', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Epperson    s2example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '7', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Haller    s6example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '11', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Kessler    s10example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '15', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Tremblay    s4example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '9', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Venegas    s7example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '12', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Waldrop    s1example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '4', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Walston    s3example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '8', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student Weller    s5example.com'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Student Branch    s9example.com     _a5523a'), 
+    '10', true)
+
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Enrol users_1'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Participants/td_s9example.com'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_s9example.com'), 's9@example.com')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/p_10 participants found'), '10 participants found')
 
 WebUI.closeBrowser()
 

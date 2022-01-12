@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1641923390290_351']</value>
+         <value>//button[@id='yui_3_17_2_1_1641958206772_353']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641923390290_351</value>
+         <value>#yui_3_17_2_1_1641958206772_353</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641923390290_351</value>
+      <value>yui_3_17_2_1_1641958206772_353</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641923390290_351&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641958206772_353&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='yui_3_17_2_1_1641923390290_351']</value>
+      <value>//button[@id='yui_3_17_2_1_1641958206772_353']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641923390290_352']/button</value>
+      <value>//div[@id='yui_3_17_2_1_1641958206772_354']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,20 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[3]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='yui_3_17_2_1_1641923390290_351']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641923390290_352']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

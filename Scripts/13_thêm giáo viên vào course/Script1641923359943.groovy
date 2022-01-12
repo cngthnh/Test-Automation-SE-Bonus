@@ -37,38 +37,36 @@ WebUI.click(findTestObject('Object Repository/Page_Course Nhp mn tr tu nhn to/sp
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/input_Participants_btn btn-secondary my-1'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Manager            Teacher          _ffc00f'), 
-    '3', true)
+WebUI.setText(findTestObject('Object Repository/Page_AI Participants/input_No selection_form_autocomplete_input-_badfe2'), 
+    'Teacher')
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_'))
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Teacher Hubbard'))
 
-WebUI.click(findTestObject('Object Repository/Page_AI Participants/small_t1example.com'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
+    '16', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _d5e7d1'), 
-    '27', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
+    '16', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _d5e7d1'), 
-    '27', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _d5e7d1'), 
-    '27', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _d5e7d1'), 
-    '27', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
+    '16', true)
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Teacher Morrill'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _d5e7d1'), 
-    '28', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
+    '17', true)
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/span_Teacher Quarles'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _d5e7d1'), 
-    '29', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Teacher Hubbard    t1example.com    _b20d7c'), 
+    '18', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants/select_Manager            Teacher          _ffc00f'), 
+    '3', true)
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Enrol users'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Participants/td_t1example.com'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_t1example.com'), 't1@example.com')
 
 WebUI.closeBrowser()
 
