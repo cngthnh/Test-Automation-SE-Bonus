@@ -1,0 +1,801 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Chrome 97.0.4692.71,,,2022-01-14 19:57:31,2022-01-14 20:43:12,45m - 40.526s,FAILED
+,,,,,,,
+Test Cases/1_admin đăng nhập thành công,Chrome 97.0.4692.71,,,2022-01-14 19:57:32,2022-01-14 19:57:42,10.467s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:57:32,2022-01-14 19:57:35,2.662s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:57:35,2022-01-14 19:57:36,1.433s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:36,2022-01-14 19:57:37,0.874s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:57:37,2022-01-14 19:57:38,0.799s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:57:38,2022-01-14 19:57:38,0.417s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:38,2022-01-14 19:57:40,1.725s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:40,2022-01-14 19:57:42,1.375s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:57:42,2022-01-14 19:57:42,0.642s,PASSED
+,,,,,,,
+Test Cases/2_admin đăng nhập thất bại,Chrome 97.0.4692.71,,,2022-01-14 19:57:42,2022-01-14 19:57:55,12.431s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:57:42,2022-01-14 19:57:44,1.107s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:57:44,2022-01-14 19:57:44,0.546s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:44,2022-01-14 19:57:45,0.784s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin1234"")",Chrome 97.0.4692.71,,,2022-01-14 19:57:45,2022-01-14 19:57:46,0.940s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:57:46,2022-01-14 19:57:46,0.428s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:46,2022-01-14 19:57:47,0.522s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/div_Invalid login, please try again""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:47,2022-01-14 19:57:47,0.494s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_HCMUS Log in to the site/div_Invalid login, please try again_1""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:47,2022-01-14 19:57:54,6.621s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:57:54,2022-01-14 19:57:55,0.678s,PASSED
+,,,,,,,
+Test Cases/3_tạo tài khoản và bắt buộc thay đổi mật khẩu,Chrome 97.0.4692.71,,,2022-01-14 19:57:55,2022-01-14 19:58:30,35.397s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:57:55,2022-01-14 19:57:56,1.125s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:57:56,2022-01-14 19:57:57,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:57,2022-01-14 19:57:57,0.785s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:57:57,2022-01-14 19:57:58,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:57:58,2022-01-14 19:57:59,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:57:59,2022-01-14 19:58:00,1.238s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:00,2022-01-14 19:58:04,3.914s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:04,2022-01-14 19:58:04,0.511s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:04,2022-01-14 19:58:06,1.951s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), ""student11"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:06,2022-01-14 19:58:08,1.392s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:08,2022-01-14 19:58:08,0.469s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:08,2022-01-14 19:58:09,0.508s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), ""Student"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:09,2022-01-14 19:58:09,0.714s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), ""Zack"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:09,2022-01-14 19:58:10,0.977s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), ""s11@example.com"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:10,2022-01-14 19:58:11,0.727s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Press enter to save changes_preferenc_a80a7a""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:11,2022-01-14 19:58:11,0.474s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:11,2022-01-14 19:58:13,1.963s,PASSED
+"navigateToUrl(""http://localhost/admin/user.php"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:13,2022-01-14 19:58:14,0.595s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:14,2022-01-14 19:58:21,6.737s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:21,2022-01-14 19:58:21,0.426s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:21,2022-01-14 19:58:22,0.926s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:22,2022-01-14 19:58:23,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""student11"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:23,2022-01-14 19:58:24,0.748s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:24,2022-01-14 19:58:24,0.409s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:24,2022-01-14 19:58:25,0.892s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Change password/div_You must change your password to proceed""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:25,2022-01-14 19:58:26,0.578s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Change password/input_Current password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:26,2022-01-14 19:58:26,0.423s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Change password/input_New password_newpassword1""), ""xsue+lrReh5yW1Jtmbf0PA=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:26,2022-01-14 19:58:27,0.491s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Change password/input_New password (again)_newpassword2""), ""xsue+lrReh5yW1Jtmbf0PA=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:27,2022-01-14 19:58:27,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_Change password/input_New password (again)_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:27,2022-01-14 19:58:28,0.983s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Password has been changed/div_Password has been changed""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:28,2022-01-14 19:58:29,0.593s,PASSED
+"click(findTestObject(""Object Repository/Page_Password has been changed/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:29,2022-01-14 19:58:29,0.762s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:58:29,2022-01-14 19:58:30,0.650s,PASSED
+,,,,,,,
+Test Cases/4_tạo tài khoản user với username đã tồn tại,Chrome 97.0.4692.71,,,2022-01-14 19:58:30,2022-01-14 19:58:47,17.091s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:58:30,2022-01-14 19:58:31,1.088s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:31,2022-01-14 19:58:32,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:32,2022-01-14 19:58:33,0.790s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:33,2022-01-14 19:58:33,0.702s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:33,2022-01-14 19:58:34,0.358s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:34,2022-01-14 19:58:35,1.031s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:35,2022-01-14 19:58:37,1.806s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:37,2022-01-14 19:58:37,0.464s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:37,2022-01-14 19:58:39,1.525s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), ""student11"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:39,2022-01-14 19:58:40,1.376s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), ""a"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:40,2022-01-14 19:58:41,0.789s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), ""b"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:41,2022-01-14 19:58:42,0.798s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), ""a@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:42,2022-01-14 19:58:42,0.732s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:42,2022-01-14 19:58:43,0.553s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), ""8pa5q0hY+sdM2cG6/p2tPQ=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:43,2022-01-14 19:58:43,0.568s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:43,2022-01-14 19:58:45,1.556s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_This username already exists, choose another""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:45,2022-01-14 19:58:46,1.100s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_This username already exists, choose another_1""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:46,2022-01-14 19:58:46,0.338s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:58:46,2022-01-14 19:58:47,0.658s,PASSED
+,,,,,,,
+Test Cases/5_tạo tài khoản với mật khẩu không theo chuẩn,Chrome 97.0.4692.71,,,2022-01-14 19:58:47,2022-01-14 19:59:05,18.061s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:58:47,2022-01-14 19:58:48,1.087s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:48,2022-01-14 19:58:49,0.435s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:49,2022-01-14 19:58:50,0.698s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:50,2022-01-14 19:58:50,0.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:50,2022-01-14 19:58:51,0.358s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:51,2022-01-14 19:58:52,1.121s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:52,2022-01-14 19:58:54,1.686s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:54,2022-01-14 19:58:54,0.474s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:54,2022-01-14 19:58:55,1.464s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), ""student2"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:55,2022-01-14 19:58:57,1.293s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:57,2022-01-14 19:58:57,0.539s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), ""J7R4ejOak4Y="")",Chrome 97.0.4692.71,,,2022-01-14 19:58:57,2022-01-14 19:58:58,0.550s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), ""student2"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:58,2022-01-14 19:58:59,0.761s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_First name""))",Chrome 97.0.4692.71,,,2022-01-14 19:58:59,2022-01-14 19:58:59,0.672s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), ""Student"")",Chrome 97.0.4692.71,,,2022-01-14 19:58:59,2022-01-14 19:59:00,0.789s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), ""Epperson"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:00,2022-01-14 19:59:01,0.611s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), ""s2@example.com"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:01,2022-01-14 19:59:01,0.702s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:01,2022-01-14 19:59:03,1.160s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must be at least 8 characters long""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:03,2022-01-14 19:59:04,1.081s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 digit(s)""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:04,2022-01-14 19:59:04,0.295s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 digit(s)""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:04,2022-01-14 19:59:04,0.298s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 upper ca_8e926f""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:04,2022-01-14 19:59:05,0.288s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:59:05,2022-01-14 19:59:05,0.622s,PASSED
+,,,,,,,
+Test Cases/6_tạo tài khoản thiếu thuộc tính bắt buộc,Chrome 97.0.4692.71,,,2022-01-14 19:59:05,2022-01-14 19:59:17,11.687s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:59:05,2022-01-14 19:59:07,1.088s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:07,2022-01-14 19:59:07,0.458s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:07,2022-01-14 19:59:08,0.716s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:08,2022-01-14 19:59:08,0.773s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:59:08,2022-01-14 19:59:09,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:09,2022-01-14 19:59:10,0.983s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:10,2022-01-14 19:59:12,1.784s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:12,2022-01-14 19:59:12,0.532s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:12,2022-01-14 19:59:13,1.235s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:13,2022-01-14 19:59:15,1.178s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Missing given name""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:15,2022-01-14 19:59:15,0.463s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Missing surname""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:15,2022-01-14 19:59:15,0.334s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Required""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:15,2022-01-14 19:59:16,0.301s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:16,2022-01-14 19:59:16,0.295s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Required""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:16,2022-01-14 19:59:16,0.296s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:59:16,2022-01-14 19:59:17,0.612s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 19:59:17,2022-01-14 19:59:40,23.051s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:59:17,2022-01-14 19:59:18,1.086s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:18,2022-01-14 19:59:19,0.450s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:19,2022-01-14 19:59:20,0.761s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:20,2022-01-14 19:59:20,0.783s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:59:20,2022-01-14 19:59:21,0.346s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:21,2022-01-14 19:59:22,1.082s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:22,2022-01-14 19:59:24,2.135s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:24,2022-01-14 19:59:24,0.547s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:24,2022-01-14 19:59:26,1.317s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 19:59:26,2022-01-14 19:59:27,1.407s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:27,2022-01-14 19:59:28,0.538s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 19:59:28,2022-01-14 19:59:29,0.818s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 19:59:29,2022-01-14 19:59:29,0.814s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:29,2022-01-14 19:59:30,0.678s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 19:59:30,2022-01-14 19:59:31,0.742s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 19:59:31,2022-01-14 19:59:31,0.702s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:31,2022-01-14 19:59:33,1.636s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:33,2022-01-14 19:59:34,0.534s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:34,2022-01-14 19:59:34,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:34,2022-01-14 19:59:34,0.343s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:34,2022-01-14 19:59:35,0.742s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:35,2022-01-14 19:59:36,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 19:59:36,2022-01-14 19:59:36,0.782s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 19:59:36,2022-01-14 19:59:37,0.603s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:37,2022-01-14 19:59:38,0.988s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:38,2022-01-14 19:59:39,1.377s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 19:59:39,2022-01-14 19:59:40,0.629s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 19:59:40,2022-01-14 20:00:04,24.035s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 19:59:40,2022-01-14 19:59:41,1.101s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:41,2022-01-14 19:59:42,0.538s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:42,2022-01-14 19:59:42,0.744s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 19:59:42,2022-01-14 19:59:43,0.802s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 19:59:43,2022-01-14 19:59:44,0.487s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:44,2022-01-14 19:59:45,1.180s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:45,2022-01-14 19:59:47,2.140s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:47,2022-01-14 19:59:48,0.615s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:48,2022-01-14 19:59:50,1.820s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 19:59:50,2022-01-14 19:59:51,1.393s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:51,2022-01-14 19:59:51,0.530s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 19:59:51,2022-01-14 19:59:52,0.777s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 19:59:52,2022-01-14 19:59:53,0.745s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:53,2022-01-14 19:59:54,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 19:59:54,2022-01-14 19:59:54,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 19:59:54,2022-01-14 19:59:55,0.751s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:55,2022-01-14 19:59:57,1.977s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:57,2022-01-14 19:59:57,0.550s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:57,2022-01-14 19:59:58,0.396s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:58,2022-01-14 19:59:58,0.403s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:58,2022-01-14 19:59:59,0.804s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 19:59:59,2022-01-14 20:00:00,0.615s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:00:00,2022-01-14 20:00:00,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:00:00,2022-01-14 20:00:01,0.582s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:01,2022-01-14 20:00:02,1.065s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:02,2022-01-14 20:00:03,1.405s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:00:03,2022-01-14 20:00:04,0.621s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:00:04,2022-01-14 20:00:27,22.692s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:00:04,2022-01-14 20:00:05,1.139s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:00:05,2022-01-14 20:00:06,0.474s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:06,2022-01-14 20:00:07,0.696s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:00:07,2022-01-14 20:00:07,0.769s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:00:07,2022-01-14 20:00:08,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:08,2022-01-14 20:00:09,1.056s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:09,2022-01-14 20:00:11,2.142s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:11,2022-01-14 20:00:11,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:11,2022-01-14 20:00:13,1.291s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:00:13,2022-01-14 20:00:14,1.332s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:14,2022-01-14 20:00:15,0.590s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:00:15,2022-01-14 20:00:15,0.772s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:00:15,2022-01-14 20:00:16,0.750s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:16,2022-01-14 20:00:17,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:00:17,2022-01-14 20:00:17,0.621s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:00:17,2022-01-14 20:00:18,0.729s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:18,2022-01-14 20:00:20,1.571s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:20,2022-01-14 20:00:20,0.539s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:20,2022-01-14 20:00:21,0.319s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:21,2022-01-14 20:00:21,0.343s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:21,2022-01-14 20:00:22,0.865s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:22,2022-01-14 20:00:22,0.609s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:00:22,2022-01-14 20:00:23,0.886s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:00:23,2022-01-14 20:00:24,0.669s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:24,2022-01-14 20:00:25,0.943s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:25,2022-01-14 20:00:26,1.376s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:00:26,2022-01-14 20:00:27,0.643s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:00:27,2022-01-14 20:00:50,22.746s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:00:27,2022-01-14 20:00:28,1.335s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:00:28,2022-01-14 20:00:29,0.472s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:29,2022-01-14 20:00:30,0.799s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:00:30,2022-01-14 20:00:30,0.781s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:00:30,2022-01-14 20:00:31,0.369s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:31,2022-01-14 20:00:32,1.164s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:32,2022-01-14 20:00:34,2.191s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:34,2022-01-14 20:00:35,0.515s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:35,2022-01-14 20:00:36,1.205s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:00:36,2022-01-14 20:00:37,1.269s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:37,2022-01-14 20:00:38,0.531s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:00:38,2022-01-14 20:00:38,0.785s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:00:38,2022-01-14 20:00:39,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:39,2022-01-14 20:00:40,0.619s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:00:40,2022-01-14 20:00:40,0.611s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:00:40,2022-01-14 20:00:41,0.717s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:41,2022-01-14 20:00:43,1.462s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:43,2022-01-14 20:00:43,0.512s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:43,2022-01-14 20:00:43,0.297s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:43,2022-01-14 20:00:44,0.362s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:44,2022-01-14 20:00:45,0.762s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:45,2022-01-14 20:00:45,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:00:45,2022-01-14 20:00:46,0.796s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:00:46,2022-01-14 20:00:47,0.610s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:47,2022-01-14 20:00:48,0.966s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:48,2022-01-14 20:00:49,1.493s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:00:49,2022-01-14 20:00:50,0.679s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:00:50,2022-01-14 20:01:13,22.903s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:00:50,2022-01-14 20:00:51,1.143s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:00:51,2022-01-14 20:00:51,0.438s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:51,2022-01-14 20:00:52,0.767s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:00:52,2022-01-14 20:00:53,0.765s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:00:53,2022-01-14 20:00:53,0.343s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:53,2022-01-14 20:00:54,1.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:54,2022-01-14 20:00:56,1.942s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:56,2022-01-14 20:00:57,0.522s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:00:57,2022-01-14 20:00:58,1.633s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:00:58,2022-01-14 20:01:00,1.184s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:00,2022-01-14 20:01:00,0.468s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:01:00,2022-01-14 20:01:02,1.499s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:01:02,2022-01-14 20:01:02,0.585s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:02,2022-01-14 20:01:03,0.632s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:01:03,2022-01-14 20:01:03,0.616s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:01:03,2022-01-14 20:01:04,0.739s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:04,2022-01-14 20:01:06,1.557s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:06,2022-01-14 20:01:06,0.438s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:06,2022-01-14 20:01:07,0.311s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:07,2022-01-14 20:01:07,0.344s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:07,2022-01-14 20:01:08,0.785s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:08,2022-01-14 20:01:08,0.723s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:01:08,2022-01-14 20:01:09,0.777s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:01:09,2022-01-14 20:01:10,0.591s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:10,2022-01-14 20:01:11,0.955s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:11,2022-01-14 20:01:12,1.373s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:01:12,2022-01-14 20:01:13,0.624s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:01:13,2022-01-14 20:01:35,21.904s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:01:13,2022-01-14 20:01:14,1.037s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:01:14,2022-01-14 20:01:14,0.477s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:14,2022-01-14 20:01:15,0.736s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:01:15,2022-01-14 20:01:16,0.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:01:16,2022-01-14 20:01:16,0.341s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:16,2022-01-14 20:01:17,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:17,2022-01-14 20:01:19,1.772s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:19,2022-01-14 20:01:19,0.528s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:19,2022-01-14 20:01:21,1.279s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:01:21,2022-01-14 20:01:22,1.264s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:22,2022-01-14 20:01:23,0.538s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:01:23,2022-01-14 20:01:23,0.777s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:01:23,2022-01-14 20:01:24,0.800s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:24,2022-01-14 20:01:25,0.688s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:01:25,2022-01-14 20:01:25,0.605s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:01:25,2022-01-14 20:01:26,0.790s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:26,2022-01-14 20:01:28,1.589s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:28,2022-01-14 20:01:28,0.540s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:28,2022-01-14 20:01:29,0.292s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:29,2022-01-14 20:01:29,0.331s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:29,2022-01-14 20:01:30,0.762s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:30,2022-01-14 20:01:30,0.638s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:01:30,2022-01-14 20:01:31,0.783s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:01:31,2022-01-14 20:01:32,0.571s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:32,2022-01-14 20:01:33,0.965s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:33,2022-01-14 20:01:34,1.379s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:01:34,2022-01-14 20:01:35,0.628s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:01:35,2022-01-14 20:01:58,22.866s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:01:35,2022-01-14 20:01:36,1.099s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:01:36,2022-01-14 20:01:36,0.523s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:36,2022-01-14 20:01:37,0.747s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:01:37,2022-01-14 20:01:38,0.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:01:38,2022-01-14 20:01:38,0.366s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:38,2022-01-14 20:01:40,1.375s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:40,2022-01-14 20:01:42,2.388s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:42,2022-01-14 20:01:43,0.543s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:43,2022-01-14 20:01:44,1.315s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:01:44,2022-01-14 20:01:45,1.308s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:45,2022-01-14 20:01:46,0.439s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:01:46,2022-01-14 20:01:46,0.785s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:01:46,2022-01-14 20:01:47,0.701s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:47,2022-01-14 20:01:48,0.676s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:01:48,2022-01-14 20:01:48,0.604s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:01:48,2022-01-14 20:01:49,0.846s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:49,2022-01-14 20:01:51,1.495s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:51,2022-01-14 20:01:51,0.504s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:51,2022-01-14 20:01:52,0.290s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:52,2022-01-14 20:01:52,0.327s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:52,2022-01-14 20:01:53,0.728s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:53,2022-01-14 20:01:53,0.647s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:01:53,2022-01-14 20:01:54,0.790s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:01:54,2022-01-14 20:01:55,0.578s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:55,2022-01-14 20:01:56,0.937s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:56,2022-01-14 20:01:57,1.384s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:01:57,2022-01-14 20:01:58,0.636s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:01:58,2022-01-14 20:02:21,23.825s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:01:58,2022-01-14 20:01:59,1.084s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:01:59,2022-01-14 20:01:59,0.476s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:01:59,2022-01-14 20:02:00,0.697s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:02:00,2022-01-14 20:02:01,0.775s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:02:01,2022-01-14 20:02:01,0.341s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:01,2022-01-14 20:02:02,1.020s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:02,2022-01-14 20:02:04,1.985s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:04,2022-01-14 20:02:05,0.504s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:05,2022-01-14 20:02:06,1.499s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:02:06,2022-01-14 20:02:07,1.386s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:07,2022-01-14 20:02:08,0.450s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:02:08,2022-01-14 20:02:09,0.708s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:02:09,2022-01-14 20:02:09,0.715s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:09,2022-01-14 20:02:10,0.709s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:02:10,2022-01-14 20:02:11,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:02:11,2022-01-14 20:02:11,0.750s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:11,2022-01-14 20:02:13,1.900s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:13,2022-01-14 20:02:14,0.750s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:14,2022-01-14 20:02:14,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:14,2022-01-14 20:02:15,0.378s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:15,2022-01-14 20:02:16,0.897s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:16,2022-01-14 20:02:16,0.716s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:02:16,2022-01-14 20:02:17,0.734s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:02:17,2022-01-14 20:02:18,0.640s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:18,2022-01-14 20:02:19,1.441s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:19,2022-01-14 20:02:21,1.538s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:02:21,2022-01-14 20:02:21,0.650s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:02:22,2022-01-14 20:02:44,22.413s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:02:22,2022-01-14 20:02:23,1.241s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:02:23,2022-01-14 20:02:23,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:23,2022-01-14 20:02:24,0.753s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:02:24,2022-01-14 20:02:25,0.775s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:02:25,2022-01-14 20:02:25,0.342s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:25,2022-01-14 20:02:26,1.130s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:26,2022-01-14 20:02:28,1.820s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:28,2022-01-14 20:02:29,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:29,2022-01-14 20:02:30,1.388s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:02:30,2022-01-14 20:02:31,1.214s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:31,2022-01-14 20:02:32,0.443s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:02:32,2022-01-14 20:02:32,0.706s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:02:32,2022-01-14 20:02:33,0.693s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:33,2022-01-14 20:02:34,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:02:34,2022-01-14 20:02:34,0.607s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:02:34,2022-01-14 20:02:35,0.719s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:35,2022-01-14 20:02:37,1.834s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:37,2022-01-14 20:02:37,0.518s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:37,2022-01-14 20:02:38,0.299s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:38,2022-01-14 20:02:38,0.340s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:38,2022-01-14 20:02:39,0.750s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:39,2022-01-14 20:02:40,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:02:40,2022-01-14 20:02:40,0.780s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:02:40,2022-01-14 20:02:41,0.619s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:41,2022-01-14 20:02:42,1.009s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:42,2022-01-14 20:02:43,1.417s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:02:43,2022-01-14 20:02:44,0.626s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:02:44,2022-01-14 20:03:07,22.952s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:02:44,2022-01-14 20:02:45,1.356s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:02:45,2022-01-14 20:02:46,0.544s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:46,2022-01-14 20:02:47,0.756s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:02:47,2022-01-14 20:02:48,0.778s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:02:48,2022-01-14 20:02:48,0.362s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:48,2022-01-14 20:02:49,1.125s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:49,2022-01-14 20:02:51,1.927s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:51,2022-01-14 20:02:51,0.449s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:51,2022-01-14 20:02:53,1.218s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:02:53,2022-01-14 20:02:54,1.293s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:54,2022-01-14 20:02:54,0.566s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:02:54,2022-01-14 20:02:55,0.729s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:02:55,2022-01-14 20:02:56,0.805s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:56,2022-01-14 20:02:57,0.662s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:02:57,2022-01-14 20:02:57,0.756s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:02:57,2022-01-14 20:02:58,0.836s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:02:58,2022-01-14 20:03:00,1.596s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:00,2022-01-14 20:03:00,0.527s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:00,2022-01-14 20:03:01,0.301s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:01,2022-01-14 20:03:01,0.320s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:01,2022-01-14 20:03:02,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:02,2022-01-14 20:03:02,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:03:02,2022-01-14 20:03:03,0.787s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:03:03,2022-01-14 20:03:04,0.661s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:04,2022-01-14 20:03:05,1.113s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:05,2022-01-14 20:03:06,1.369s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:03:06,2022-01-14 20:03:07,0.625s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:03:07,2022-01-14 20:03:33,25.848s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:03:07,2022-01-14 20:03:08,1.085s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:03:08,2022-01-14 20:03:09,0.603s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:09,2022-01-14 20:03:10,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:03:10,2022-01-14 20:03:10,0.633s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:03:10,2022-01-14 20:03:11,0.373s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:11,2022-01-14 20:03:12,1.231s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:12,2022-01-14 20:03:14,1.884s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:14,2022-01-14 20:03:14,0.550s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:14,2022-01-14 20:03:16,1.484s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:03:16,2022-01-14 20:03:17,1.324s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:17,2022-01-14 20:03:18,0.563s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:03:18,2022-01-14 20:03:19,0.819s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:03:19,2022-01-14 20:03:19,0.880s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:19,2022-01-14 20:03:20,0.739s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:03:20,2022-01-14 20:03:21,0.775s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:03:21,2022-01-14 20:03:22,0.760s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:22,2022-01-14 20:03:24,2.286s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:24,2022-01-14 20:03:25,0.558s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:25,2022-01-14 20:03:25,0.434s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:25,2022-01-14 20:03:25,0.477s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:25,2022-01-14 20:03:27,1.256s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:27,2022-01-14 20:03:28,0.948s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:03:28,2022-01-14 20:03:28,0.838s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:03:28,2022-01-14 20:03:29,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:29,2022-01-14 20:03:31,1.380s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:31,2022-01-14 20:03:32,1.552s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:03:32,2022-01-14 20:03:33,0.740s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:03:33,2022-01-14 20:03:58,24.336s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:03:33,2022-01-14 20:03:35,1.451s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:03:35,2022-01-14 20:03:36,0.861s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:36,2022-01-14 20:03:37,0.965s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:03:37,2022-01-14 20:03:37,0.826s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:03:37,2022-01-14 20:03:38,0.462s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:38,2022-01-14 20:03:39,1.626s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:39,2022-01-14 20:03:42,2.272s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:42,2022-01-14 20:03:42,0.406s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:42,2022-01-14 20:03:44,1.647s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:03:44,2022-01-14 20:03:45,1.328s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:45,2022-01-14 20:03:46,0.473s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:03:46,2022-01-14 20:03:46,0.709s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:03:46,2022-01-14 20:03:47,0.718s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:47,2022-01-14 20:03:48,0.708s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:03:48,2022-01-14 20:03:48,0.618s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:03:48,2022-01-14 20:03:49,0.758s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:49,2022-01-14 20:03:51,1.496s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:51,2022-01-14 20:03:51,0.504s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:51,2022-01-14 20:03:51,0.303s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:51,2022-01-14 20:03:52,0.350s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:52,2022-01-14 20:03:52,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:52,2022-01-14 20:03:53,0.582s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:03:53,2022-01-14 20:03:54,0.786s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:03:54,2022-01-14 20:03:54,0.628s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:54,2022-01-14 20:03:55,1.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:03:55,2022-01-14 20:03:57,1.389s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:03:57,2022-01-14 20:03:58,0.653s,PASSED
+,,,,,,,
+Test Cases/7_tạo tài khoản user chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:03:58,2022-01-14 20:04:21,23.101s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:03:58,2022-01-14 20:03:59,1.319s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:03:59,2022-01-14 20:04:00,0.568s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:00,2022-01-14 20:04:00,0.746s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:00,2022-01-14 20:04:01,0.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:04:01,2022-01-14 20:04:01,0.394s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:01,2022-01-14 20:04:03,1.193s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:03,2022-01-14 20:04:05,2.254s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Users""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:05,2022-01-14 20:04:05,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new user""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:05,2022-01-14 20:04:07,1.329s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:04:07,2022-01-14 20:04:08,1.203s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:08,2022-01-14 20:04:08,0.536s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:04:08,2022-01-14 20:04:09,0.803s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname""), firstname)",Chrome 97.0.4692.71,,,2022-01-14 20:04:09,2022-01-14 20:04:10,0.751s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:10,2022-01-14 20:04:11,0.724s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname""), lastname)",Chrome 97.0.4692.71,,,2022-01-14 20:04:11,2022-01-14 20:04:11,0.651s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email""), email)",Chrome 97.0.4692.71,,,2022-01-14 20:04:11,2022-01-14 20:04:12,0.823s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:12,2022-01-14 20:04:14,1.568s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:14,2022-01-14 20:04:14,0.528s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/td_s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:14,2022-01-14 20:04:15,0.296s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:15,2022-01-14 20:04:15,0.333s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/span_Log out""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:15,2022-01-14 20:04:16,0.769s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:16,2022-01-14 20:04:16,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), username)",Chrome 97.0.4692.71,,,2022-01-14 20:04:16,2022-01-14 20:04:17,0.797s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), password)",Chrome 97.0.4692.71,,,2022-01-14 20:04:17,2022-01-14 20:04:18,0.578s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:18,2022-01-14 20:04:19,0.968s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard/span_Student Waldrop""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:19,2022-01-14 20:04:20,1.370s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:04:20,2022-01-14 20:04:21,0.649s,PASSED
+,,,,,,,
+Test Cases/8_admin kiểm tra thẻ site administration,Chrome 97.0.4692.71,,,2022-01-14 20:04:21,2022-01-14 20:04:30,9.424s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:04:21,2022-01-14 20:04:22,1.356s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:22,2022-01-14 20:04:23,0.503s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:23,2022-01-14 20:04:24,0.744s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:24,2022-01-14 20:04:24,0.811s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:04:24,2022-01-14 20:04:25,0.345s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:25,2022-01-14 20:04:26,1.601s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:26,2022-01-14 20:04:29,2.701s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:29,2022-01-14 20:04:30,0.439s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:04:30,2022-01-14 20:04:30,0.627s,PASSED
+,,,,,,,
+Test Cases/9_tạo 1 course thành công,Chrome 97.0.4692.71,,,2022-01-14 20:04:30,2022-01-14 20:04:47,16.304s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:04:31,2022-01-14 20:04:32,1.139s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:32,2022-01-14 20:04:32,0.624s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:32,2022-01-14 20:04:33,0.756s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:33,2022-01-14 20:04:34,0.799s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:04:34,2022-01-14 20:04:34,0.359s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:34,2022-01-14 20:04:35,1.223s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:35,2022-01-14 20:04:38,2.110s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Courses""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:38,2022-01-14 20:04:38,0.464s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new course""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:38,2022-01-14 20:04:40,1.506s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Add a new course/input_Course full name_fullname""), ""Nhập môn trí tuệ nhân tạo"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:40,2022-01-14 20:04:41,1.425s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Add a new course/input_Course short name_shortname""), ""AI"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:41,2022-01-14 20:04:42,0.784s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KHTN Add a new course/select_1        2        3        4        _45ea30""), ""22"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:04:42,2022-01-14 20:04:43,1.399s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Add a new course/input_Course ID number_idnumber""), ""1"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:43,2022-01-14 20:04:44,0.758s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Add a new course/input__saveanddisplay""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:44,2022-01-14 20:04:45,1.470s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_AI Participants/h1_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:45,2022-01-14 20:04:46,0.469s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:04:46,2022-01-14 20:04:47,0.668s,PASSED
+,,,,,,,
+Test Cases/10_tạo course với thuộc tính bị trùng,Chrome 97.0.4692.71,,,2022-01-14 20:04:47,2022-01-14 20:05:07,20.543s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:04:47,2022-01-14 20:04:48,1.273s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:48,2022-01-14 20:04:49,0.698s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/nav_Side panel                             _87ec86""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:49,2022-01-14 20:04:49,0.507s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:49,2022-01-14 20:04:50,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:04:50,2022-01-14 20:04:51,0.840s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:04:51,2022-01-14 20:04:51,0.435s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:51,2022-01-14 20:04:53,1.937s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:53,2022-01-14 20:04:57,3.824s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Courses""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:57,2022-01-14 20:04:58,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new course""))",Chrome 97.0.4692.71,,,2022-01-14 20:04:58,2022-01-14 20:05:00,1.810s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Add a new course/input_Course full name_fullname""), ""mobile"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:00,2022-01-14 20:05:01,1.518s,PASSED
+"setText(findTestObject(""Object Repository/Page_KHTN Add a new course/input_Course short name_shortname""), ""AI"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:01,2022-01-14 20:05:02,0.794s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Add a new course/input__saveanddisplay""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:02,2022-01-14 20:05:05,2.900s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Add a new course/div_Short name is already used for another _0ec0da""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:05,2022-01-14 20:05:06,1.071s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Add a new course/input_Course short name_shortname""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:06,2022-01-14 20:05:06,0.401s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:05:06,2022-01-14 20:05:07,0.731s,PASSED
+,,,,,,,
+Test Cases/11_tạo course với thuộc tính rỗng,Chrome 97.0.4692.71,,,2022-01-14 20:05:07,2022-01-14 20:05:22,15.361s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:05:08,2022-01-14 20:05:09,1.438s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:09,2022-01-14 20:05:10,0.849s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:10,2022-01-14 20:05:11,1.023s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:11,2022-01-14 20:05:12,0.837s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:05:12,2022-01-14 20:05:12,0.459s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:12,2022-01-14 20:05:14,1.986s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:14,2022-01-14 20:05:17,2.927s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Courses""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:17,2022-01-14 20:05:18,0.546s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Administration Search/a_Add a new course""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:18,2022-01-14 20:05:19,1.683s,PASSED
+"click(findTestObject(""Object Repository/Page_KHTN Add a new course/input__saveanddisplay""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:19,2022-01-14 20:05:21,1.206s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Add a new course/div_- Missing full name""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:21,2022-01-14 20:05:21,0.547s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_KHTN Add a new course/div_- Missing short name""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:21,2022-01-14 20:05:22,0.413s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:05:22,2022-01-14 20:05:22,0.750s,PASSED
+,,,,,,,
+Test Cases/12_thêm sinh viên vào course,Chrome 97.0.4692.71,,,2022-01-14 20:05:22,2022-01-14 20:05:54,31.344s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:05:23,2022-01-14 20:05:24,1.092s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:24,2022-01-14 20:05:24,0.555s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:24,2022-01-14 20:05:25,0.731s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:25,2022-01-14 20:05:26,0.780s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:05:26,2022-01-14 20:05:26,0.359s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:26,2022-01-14 20:05:28,1.708s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:28,2022-01-14 20:05:30,2.465s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to_1""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:30,2022-01-14 20:05:31,0.987s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Participants""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:31,2022-01-14 20:05:33,1.105s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/input_Participants_btn btn-secondary my-1""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:33,2022-01-14 20:05:33,0.624s,PASSED
+"setText(findTestObject(""Object Repository/Page_AI Participants/input_No selection_form_autocomplete_input-_6680aa""), ""Student"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:33,2022-01-14 20:05:35,1.925s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Branch    s9example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:35,2022-01-14 20:05:36,1.408s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Clifford    s8example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:36,2022-01-14 20:05:37,0.855s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Epperson    s2example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:37,2022-01-14 20:05:38,0.793s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Haller    s6example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:38,2022-01-14 20:05:39,0.930s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Kessler    s10example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:39,2022-01-14 20:05:40,0.838s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Tremblay    s4example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:40,2022-01-14 20:05:41,0.823s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Venegas    s7example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:41,2022-01-14 20:05:42,0.895s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Waldrop    s1example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:42,2022-01-14 20:05:43,0.891s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Walston    s3example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:43,2022-01-14 20:05:43,0.876s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Student Weller    s5example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:43,2022-01-14 20:05:44,0.927s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/button_Enrol users_1""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:44,2022-01-14 20:05:45,0.953s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/a_S""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:45,2022-01-14 20:05:52,6.716s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_AI Participants/td_s9example.com""))",Chrome 97.0.4692.71,,,2022-01-14 20:05:52,2022-01-14 20:05:53,0.673s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_AI Participants/td_s9example.com""), ""s9@example.com"")",Chrome 97.0.4692.71,,,2022-01-14 20:05:53,2022-01-14 20:05:53,0.341s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:05:53,2022-01-14 20:05:54,0.750s,PASSED
+,,,,,,,
+Test Cases/13_thêm giáo viên vào course,Chrome 97.0.4692.71,,,2022-01-14 20:08:33,2022-01-14 20:09:25,52.291s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:08:33,2022-01-14 20:08:35,1.870s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:08:35,2022-01-14 20:08:36,0.845s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:36,2022-01-14 20:08:37,0.750s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:08:37,2022-01-14 20:08:37,0.820s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:08:37,2022-01-14 20:08:38,0.465s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:38,2022-01-14 20:08:39,1.290s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:39,2022-01-14 20:08:41,1.933s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:41,2022-01-14 20:08:42,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Participants""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:42,2022-01-14 20:08:43,0.982s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/input_Participants_btn btn-secondary my-1""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:43,2022-01-14 20:08:43,0.448s,PASSED
+"setText(findTestObject(""Object Repository/Page_AI Participants/input_No selection_form_autocomplete_input-_badfe2""), ""Teacher"")",Chrome 97.0.4692.71,,,2022-01-14 20:08:43,2022-01-14 20:08:57,13.060s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/span_Teacher Hubbard""))",Chrome 97.0.4692.71,,,2022-01-14 20:08:57,2022-01-14 20:09:03,6.359s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/span_Teacher Morrill""))",Chrome 97.0.4692.71,,,2022-01-14 20:09:03,2022-01-14 20:09:09,6.433s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/span_Teacher Quarles""))",Chrome 97.0.4692.71,,,2022-01-14 20:09:09,2022-01-14 20:09:16,6.556s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_Manager            Teacher          _ffc00f""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:09:16,2022-01-14 20:09:25,9.459s,FAILED
+,,,,,,,
+Test Cases/14_tìm kiếm theo vai trò,Chrome 97.0.4692.71,,,2022-01-14 20:12:31,2022-01-14 20:13:30,59.130s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:12:31,2022-01-14 20:12:33,1.872s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:12:33,2022-01-14 20:12:34,0.696s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:12:34,2022-01-14 20:12:34,0.770s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:12:34,2022-01-14 20:12:35,0.915s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:12:35,2022-01-14 20:12:36,0.524s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:12:36,2022-01-14 20:12:37,1.416s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home""))",Chrome 97.0.4692.71,,,2022-01-14 20:12:37,2022-01-14 20:12:40,2.876s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:12:40,2022-01-14 20:12:41,1.040s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Participants""))",Chrome 97.0.4692.71,,,2022-01-14 20:12:41,2022-01-14 20:12:42,0.906s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_Select            Keyword           _1df56e""), ""roles"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:12:42,2022-01-14 20:12:49,7.073s,PASSED
+"setText(findTestObject(""Object Repository/Page_AI Participants/input_Roles_form_autocomplete_input-1641958602006""), ""Teacher"")",Chrome 97.0.4692.71,,,2022-01-14 20:12:49,2022-01-14 20:13:02,13.204s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/li_Teacher""))",Chrome 97.0.4692.71,,,2022-01-14 20:13:02,2022-01-14 20:13:09,6.618s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:09,2022-01-14 20:13:10,1.365s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:10,2022-01-14 20:13:11,0.831s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:11,2022-01-14 20:13:12,0.830s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:12,2022-01-14 20:13:13,0.826s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:13,2022-01-14 20:13:14,0.821s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:14,2022-01-14 20:13:14,0.821s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:14,2022-01-14 20:13:15,0.824s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:15,2022-01-14 20:13:16,0.826s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_AI Participants/select_No roles                    Manager _431b74""), ""3"", true)",Chrome 97.0.4692.71,,,2022-01-14 20:13:16,2022-01-14 20:13:17,0.860s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Participants/button_Apply filters_1""))",Chrome 97.0.4692.71,,,2022-01-14 20:13:17,2022-01-14 20:13:23,6.358s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_AI Participants/p_3 participants found""), ""3 participants found"")",Chrome 97.0.4692.71,,,2022-01-14 20:13:23,2022-01-14 20:13:30,6.844s,FAILED
+,,,,,,,
+Test Cases/15_thêm lịch cho 1 course thành công,Chrome 97.0.4692.71,,,2022-01-14 20:15:29,2022-01-14 20:16:11,42.340s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:15:29,2022-01-14 20:15:31,1.978s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:15:31,2022-01-14 20:15:32,0.561s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:32,2022-01-14 20:15:32,0.791s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:15:32,2022-01-14 20:15:33,0.838s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:15:33,2022-01-14 20:15:34,0.630s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:34,2022-01-14 20:15:36,1.703s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:36,2022-01-14 20:15:38,2.417s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:38,2022-01-14 20:15:39,1.247s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Calendar""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:39,2022-01-14 20:15:41,1.220s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/span_February 2022""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:41,2022-01-14 20:15:47,6.512s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/button_New event""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:47,2022-01-14 20:15:54,6.612s,PASSED
+"setText(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/input_Event title_name""), ""event one"")",Chrome 97.0.4692.71,,,2022-01-14 20:15:54,2022-01-14 20:15:56,2.202s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/button_Save""))",Chrome 97.0.4692.71,,,2022-01-14 20:15:56,2022-01-14 20:16:02,6.609s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/button_Month""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:02,2022-01-14 20:16:11,9.009s,FAILED
+,,,,,,,
+Test Cases/16_thêm lịch cho 1 course với tiêu đề rỗng,Chrome 97.0.4692.71,,,2022-01-14 20:16:11,2022-01-14 20:16:34,22.896s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:16:12,2022-01-14 20:16:14,1.889s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:16:14,2022-01-14 20:16:15,0.848s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:15,2022-01-14 20:16:15,0.814s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:16:15,2022-01-14 20:16:16,0.782s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:16:16,2022-01-14 20:16:17,0.517s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:17,2022-01-14 20:16:18,1.417s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Calendar""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:18,2022-01-14 20:16:19,1.068s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/div_No events, Saturday, 22 January        _e72aa9""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:19,2022-01-14 20:16:26,6.989s,PASSED
+"click(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/button_Save""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:26,2022-01-14 20:16:33,6.599s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/div_- Required""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:33,2022-01-14 20:16:33,0.533s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_AI Calendar Detailed month view January 2022/input_Event title_name""))",Chrome 97.0.4692.71,,,2022-01-14 20:16:33,2022-01-14 20:16:34,0.407s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-14 20:16:34,2022-01-14 20:16:34,0.691s,PASSED
+,,,,,,,
+Test Cases/17_xem điểm của 1 course,Chrome 97.0.4692.71,,,2022-01-14 20:17:38,2022-01-14 20:17:59,21.049s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:17:38,2022-01-14 20:17:40,1.732s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:17:40,2022-01-14 20:17:40,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:40,2022-01-14 20:17:41,0.736s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-14 20:17:41,2022-01-14 20:17:42,0.784s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""5MU2PI2jvJCK/lBTYOwt6g=="")",Chrome 97.0.4692.71,,,2022-01-14 20:17:42,2022-01-14 20:17:42,0.359s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:42,2022-01-14 20:17:43,1.244s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:43,2022-01-14 20:17:45,1.558s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:45,2022-01-14 20:17:46,0.954s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Grades""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:46,2022-01-14 20:17:47,1.221s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Grades View/span_Course total""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:47,2022-01-14 20:17:47,0.515s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Grades View/th_Overall average""))",Chrome 97.0.4692.71,,,2022-01-14 20:17:47,2022-01-14 20:17:59,11.438s,FAILED
+,,,,,,,
+Test Cases/18_Giáo viên thêm quiz với thời gian đóng ở quá khứ,Chrome 97.0.4692.71,,,2022-01-14 20:20:00,2022-01-14 20:20:39,39.443s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:20:00,2022-01-14 20:20:02,1.857s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:20:02,2022-01-14 20:20:02,0.549s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:20:02,2022-01-14 20:20:03,0.811s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:20:03,2022-01-14 20:20:04,0.785s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:20:04,2022-01-14 20:20:04,0.421s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:20:04,2022-01-14 20:20:05,0.960s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_End tour""), OPTIONAL)",Chrome 97.0.4692.71,,,2022-01-14 20:20:05,2022-01-14 20:20:17,11.359s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:20:17,2022-01-14 20:20:23,6.712s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:20:23,2022-01-14 20:20:39,15.982s,FAILED
+,,,,,,,
+Test Cases/19_Giáo viên thêm quiz với thông tin chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:22:38,2022-01-14 20:23:17,39.214s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:22:38,2022-01-14 20:22:39,1.699s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:22:39,2022-01-14 20:22:40,0.488s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:22:40,2022-01-14 20:22:41,0.806s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:22:41,2022-01-14 20:22:41,0.792s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:22:41,2022-01-14 20:22:42,0.361s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:22:42,2022-01-14 20:22:43,1.071s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_End tour""), OPTIONAL)",Chrome 97.0.4692.71,,,2022-01-14 20:22:43,2022-01-14 20:22:54,11.325s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:22:54,2022-01-14 20:23:01,6.549s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:23:01,2022-01-14 20:23:17,16.117s,FAILED
+,,,,,,,
+Test Cases/20_Giáo viên thêm câu hỏi cho quiz,Chrome 97.0.4692.71,,,2022-01-14 20:24:08,2022-01-14 20:24:25,16.837s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:24:08,2022-01-14 20:24:10,1.678s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:24:10,2022-01-14 20:24:10,0.695s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:24:10,2022-01-14 20:24:11,0.910s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:24:11,2022-01-14 20:24:12,0.717s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:24:12,2022-01-14 20:24:12,0.350s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:24:12,2022-01-14 20:24:13,0.887s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Quiz 2""))",Chrome 97.0.4692.71,,,2022-01-14 20:24:13,2022-01-14 20:24:25,11.592s,FAILED
+,,,,,,,
+Test Cases/21_Giáo viên thêm survey,Chrome 97.0.4692.71,,,2022-01-14 20:25:50,2022-01-14 20:26:21,30.335s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:25:50,2022-01-14 20:25:52,1.913s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:25:52,2022-01-14 20:25:54,1.407s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:25:54,2022-01-14 20:25:55,0.968s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:25:55,2022-01-14 20:25:56,0.838s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:25:56,2022-01-14 20:25:56,0.492s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:25:56,2022-01-14 20:25:57,1.250s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:25:57,2022-01-14 20:26:04,6.930s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:26:04,2022-01-14 20:26:21,16.529s,FAILED
+,,,,,,,
+Test Cases/22_Giáo viên thêm forum,Chrome 97.0.4692.71,,,2022-01-14 20:27:33,2022-01-14 20:28:13,40.078s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:27:33,2022-01-14 20:27:34,1.726s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:27:34,2022-01-14 20:27:35,0.594s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:27:35,2022-01-14 20:27:36,0.802s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:27:36,2022-01-14 20:27:37,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:27:37,2022-01-14 20:27:37,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:27:37,2022-01-14 20:27:38,0.945s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:27:38,2022-01-14 20:27:48,9.857s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:27:48,2022-01-14 20:28:13,24.957s,FAILED
+,,,,,,,
+Test Cases/23_Giáo viên thêm url,Chrome 97.0.4692.71,,,2022-01-14 20:29:43,2022-01-14 20:30:13,29.338s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:29:43,2022-01-14 20:29:45,2.053s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:29:45,2022-01-14 20:29:46,0.661s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:29:46,2022-01-14 20:29:47,0.815s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:29:47,2022-01-14 20:29:48,0.902s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:29:48,2022-01-14 20:29:48,0.373s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:29:48,2022-01-14 20:29:49,0.943s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:29:49,2022-01-14 20:29:56,6.699s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:29:56,2022-01-14 20:30:13,16.884s,FAILED
+,,,,,,,
+Test Cases/24_Sinh viên làm quiz,Chrome 97.0.4692.71,,,2022-01-14 20:31:51,2022-01-14 20:32:24,32.439s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:31:51,2022-01-14 20:31:53,1.788s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:31:53,2022-01-14 20:31:54,1.029s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:31:54,2022-01-14 20:31:55,0.960s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""student3"")",Chrome 97.0.4692.71,,,2022-01-14 20:31:55,2022-01-14 20:31:56,0.847s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""xsue+lrReh7u7aVNaHEoWw=="")",Chrome 97.0.4692.71,,,2022-01-14 20:31:56,2022-01-14 20:31:56,0.454s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:31:56,2022-01-14 20:31:58,1.587s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_End tour""), OPTIONAL)",Chrome 97.0.4692.71,,,2022-01-14 20:31:58,2022-01-14 20:32:10,11.828s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Quiz 2""))",Chrome 97.0.4692.71,,,2022-01-14 20:32:10,2022-01-14 20:32:24,13.936s,FAILED
+,,,,,,,
+Test Cases/25_Giáo viên xem điểm quiz,Chrome 97.0.4692.71,,,2022-01-14 20:33:38,2022-01-14 20:33:58,19.777s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:33:38,2022-01-14 20:33:40,2.397s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:33:40,2022-01-14 20:33:41,1.045s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:33:41,2022-01-14 20:33:43,1.697s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:33:43,2022-01-14 20:33:44,0.924s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:33:44,2022-01-14 20:33:45,0.481s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:33:45,2022-01-14 20:33:46,1.359s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Quiz 2""))",Chrome 97.0.4692.71,,,2022-01-14 20:33:46,2022-01-14 20:33:58,11.862s,FAILED
+,,,,,,,
+Test Cases/26_Sinh viên mở đề tài thảo luận không có tiêu đề,Chrome 97.0.4692.71,,,2022-01-14 20:34:52,2022-01-14 20:35:08,16.520s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:34:52,2022-01-14 20:34:54,2.041s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:34:54,2022-01-14 20:34:55,1.099s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:34:55,2022-01-14 20:34:56,0.756s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""student3"")",Chrome 97.0.4692.71,,,2022-01-14 20:34:56,2022-01-14 20:34:56,0.734s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""xsue+lrReh7u7aVNaHEoWw=="")",Chrome 97.0.4692.71,,,2022-01-14 20:34:56,2022-01-14 20:34:57,0.373s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:34:57,2022-01-14 20:34:58,1.263s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Forum 1""))",Chrome 97.0.4692.71,,,2022-01-14 20:34:58,2022-01-14 20:35:08,10.246s,FAILED
+,,,,,,,
+Test Cases/27_Sinh viên mở một đề tài thảo luận với thông tin chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:36:21,2022-01-14 20:36:39,17.822s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:36:21,2022-01-14 20:36:23,1.798s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:36:23,2022-01-14 20:36:24,0.867s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:36:24,2022-01-14 20:36:25,1.657s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""student3"")",Chrome 97.0.4692.71,,,2022-01-14 20:36:25,2022-01-14 20:36:26,0.895s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""xsue+lrReh7u7aVNaHEoWw=="")",Chrome 97.0.4692.71,,,2022-01-14 20:36:26,2022-01-14 20:36:27,0.541s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:36:27,2022-01-14 20:36:28,1.534s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Forum 1""))",Chrome 97.0.4692.71,,,2022-01-14 20:36:28,2022-01-14 20:36:39,10.524s,FAILED
+,,,,,,,
+Test Cases/28_Giáo viên tạo assignment với giới hạn từ là số âm,Chrome 97.0.4692.71,,,2022-01-14 20:39:09,2022-01-14 20:39:43,33.875s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:39:09,2022-01-14 20:39:11,2.015s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:39:11,2022-01-14 20:39:13,2.328s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:39:13,2022-01-14 20:39:15,1.512s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:39:15,2022-01-14 20:39:16,1.318s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:39:16,2022-01-14 20:39:17,0.731s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:39:17,2022-01-14 20:39:19,2.343s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:39:19,2022-01-14 20:39:26,6.928s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:39:26,2022-01-14 20:39:43,16.680s,FAILED
+,,,,,,,
+Test Cases/29_Giáo viên tạo assignment với các thông tin chính xác,Chrome 97.0.4692.71,,,2022-01-14 20:41:19,2022-01-14 20:41:49,30.340s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:41:19,2022-01-14 20:41:21,2.232s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:41:21,2022-01-14 20:41:22,0.976s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:41:22,2022-01-14 20:41:23,0.925s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:41:23,2022-01-14 20:41:24,0.832s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:41:24,2022-01-14 20:41:24,0.471s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:41:24,2022-01-14 20:41:25,1.232s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/button_Turn editing on""))",Chrome 97.0.4692.71,,,2022-01-14 20:41:25,2022-01-14 20:41:32,7.034s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Add an activity or resource""))",Chrome 97.0.4692.71,,,2022-01-14 20:41:32,2022-01-14 20:41:49,16.627s,FAILED
+,,,,,,,
+Test Cases/30_Giáo viên tạo announcement thêm thiếu message,Chrome 97.0.4692.71,,,2022-01-14 20:42:54,2022-01-14 20:43:12,18.205s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 20:42:54,2022-01-14 20:42:57,2.868s,PASSED
+"navigateToUrl(""http://localhost/"")",Chrome 97.0.4692.71,,,2022-01-14 20:42:57,2022-01-14 20:42:58,1.505s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to""))",Chrome 97.0.4692.71,,,2022-01-14 20:42:58,2022-01-14 20:42:59,1.028s,PASSED
+"setText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Username_username""), ""teacher1"")",Chrome 97.0.4692.71,,,2022-01-14 20:42:59,2022-01-14 20:43:00,0.841s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_HCMUS Log in to the site/input_Password_password""), ""iKb8CrY6A/iqm08K47hQLA=="")",Chrome 97.0.4692.71,,,2022-01-14 20:43:00,2022-01-14 20:43:00,0.499s,PASSED
+"click(findTestObject(""Object Repository/Page_HCMUS Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-14 20:43:00,2022-01-14 20:43:01,1.050s,PASSED
+"click(findTestObject(""Object Repository/Page_Course Nhp mn tr tu nhn to/span_Announcements Forum""))",Chrome 97.0.4692.71,,,2022-01-14 20:43:01,2022-01-14 20:43:12,10.410s,FAILED
