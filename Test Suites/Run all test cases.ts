@@ -290,4 +290,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/40_Admin thêm danh mục với tên trống</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>de48f474-8746-47d4-9a37-8fd81aae0fcf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/41_Admin thêm danh mục với thông tin chính xác</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>913d90e1-f9d3-444c-acb9-f08c472ca754</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/42_Sinh viên trả lời một cuộc thảo luận trong diễn đàn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fec5ce4-dad4-4771-9095-f7335fa73c2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/43_Giáo viên backup forum môn học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58b4562e-9ec7-4bc3-b130-44704c16d67f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/44_Giáo viên restore forum môn học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f232a6d-bdd8-47d1-8e00-88746a34eb77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/45_Admin chỉnh sửa thông tin của một user</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2d62a37-4701-4cfb-96e3-6d8c3269b6b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/46_Sinh viên xem profile của người khác trong cùng khoá học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aaa36d54-6165-4524-b52d-30dad956e2e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/47_Sinh viên trả lời khảo sát trong môn học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a461b316-0e24-478e-b976-7255f07821a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/48_Sinh viên đánh dấu đã xong một đối tượng trong môn học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92f22011-d713-430f-8e5d-0ae19c718bff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/49_Giáo viên lock một discussion trong forum môn học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2d0c1c4-5b44-4674-be3b-a68657255a14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/50_Sinh viên chỉnh sửa thông tin cá nhân của mình</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
