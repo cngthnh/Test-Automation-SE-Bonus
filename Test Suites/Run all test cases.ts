@@ -230,4 +230,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/30_Giáo viên tạo announcement thêm thiếu message</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b2a9e2ac-3a16-4833-9c3f-d76992d3cc4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/31_Giáo viên tạo annoucement với thông tin đầy đủ</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>072e295b-b4e7-4732-bc77-daad00797b0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/32_Sinh viên nộp bài rỗng</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abaf177d-1382-47b4-b097-0d3ad8d3b60e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/33_Sinh viên nộp bài đúng hạn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bb26f75-1a34-4f06-b49f-4a9eaefbcfbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/34_Sinh viên gửi lời mời kết bạn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b0cbd27-d44d-43c0-9b6b-7370348ac4ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/35_Sinh viên chấp nhận lời mời kết bạn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>30a35ea4-3ec8-4e4a-a90f-4875ea73213d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/37_Sinh viên xem event trên lịch</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9db85c0b-b1aa-4945-9f6d-16c36a8632ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/36_Sinh viên nhắn tin cho nhau</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8493d12-b6c3-4585-a805-48d10c64831b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/38_Giáo viên thêm một thư mục vào môn học</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c9ec2286-dcbd-4f4a-b58e-024430c7b9c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/39_Giáo viên pin một discussion trong forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cd8f51a-1b3a-470c-8d11-7d03c41287e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/40_Admin thêm danh mục với tên trống</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
