@@ -170,4 +170,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/20_Giáo viên thêm câu hỏi cho quiz</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>daf7eb06-339b-482b-80a7-66d0f57a657c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/21_Giáo viên thêm survey</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2affb8dc-9c03-4d14-918a-fbc922a1e3f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/22_Giáo viên thêm forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1476d2ff-b426-41b9-92b3-ee9cebef1475</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/23_Giáo viên thêm url</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fdc3fea-dcfb-4c27-ab24-3d3f039af85a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/24_Sinh viên làm quiz</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62c33187-59a4-4123-bd4a-67c95f2b7f88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/25_Giáo viên xem điểm quiz</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd697855-6414-4e57-9dfc-397730d3b761</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/26_Sinh viên mở đề tài thảo luận không có tiêu đề</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f02cb876-026d-4467-bbe8-cbca38bdc6f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/27_Sinh viên mở một đề tài thảo luận với thông tin chính xác</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b67b7e0-441c-4ced-bab9-4d6907ba2659</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/28_Giáo viên tạo assignment với giới hạn từ là số âm</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4c77b74-12f2-4993-9927-7b62775ea676</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/29_Giáo viên tạo assignment với các thông tin chính xác</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8377ac5-1185-45e2-b5a7-72d9b62f5dc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/30_Giáo viên tạo announcement thêm thiếu message</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
