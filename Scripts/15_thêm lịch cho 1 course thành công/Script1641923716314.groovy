@@ -40,16 +40,15 @@ WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month vi
 WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_New event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/input_Event title_name'), 
-    'su kien 1')
+    'event one')
 
-WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_Save_1_2_3'))
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/button_Month'))
 
-WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/a_Upcoming events_1_2'))
+WebUI.click(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/a_Upcoming events'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/h3_su kien 1'), 
-    'su kien 1')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Calendar Detailed month view January 2022/h3_event one'))
 
 WebUI.closeBrowser()
 

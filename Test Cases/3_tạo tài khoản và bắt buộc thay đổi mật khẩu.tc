@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>7_tạo tài khoản và bắt buộc thay đổi mật khẩu</name>
+   <name>3_tạo tài khoản và bắt buộc thay đổi mật khẩu</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0a925db1-a57b-423d-aab4-8ca0016448f5</testCaseGuid>

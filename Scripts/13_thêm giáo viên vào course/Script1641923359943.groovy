@@ -51,6 +51,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_AI Participants
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Enrol users'))
 
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/a_T'))
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_t1example.com'), 't1@example.com')
 
 WebUI.closeBrowser()

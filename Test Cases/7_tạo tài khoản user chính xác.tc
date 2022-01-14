@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>sp_tạo nhiều user bằng file cùng lúc</name>
+   <name>7_tạo tài khoản user chính xác</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2e390fad-bd8c-4225-940c-4928802b73cc</testCaseGuid>
+   <testCaseGuid>b8ec3f5b-dfc4-43a2-b0e5-fde853f216a1</testCaseGuid>
    <variable>
-      <defaultValue>'username'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>4435f6e9-4d1b-4576-8cc2-44c6a6dc1334</id>
+      <id>a19e22b8-f70f-40c4-8bda-4352bbe96c98</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'Student\r\n'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>a798e56f-3392-410d-8c93-a186676dbf5c</id>
+      <id>d0e33bd8-b86d-4a91-bb6f-dc86d249370d</id>
       <masked>false</masked>
       <name>firstname</name>
    </variable>
    <variable>
-      <defaultValue>'student\r\n'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>d4d4c4a2-d9af-41d8-a025-5e4266959954</id>
+      <id>3025f97b-0634-4ca2-9599-8b1293060b2c</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
-      <defaultValue>'s1@gmail.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>23efd0cb-ee80-4a74-95a9-c774c618d83e</id>
+      <id>22c08f00-82f4-4436-876d-dab65ba68874</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'pass'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>dbe04a5d-a355-4958-acf9-3c4dfa9c1a9d</id>
+      <id>c518160d-d5e3-41ce-b362-df0155359f55</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

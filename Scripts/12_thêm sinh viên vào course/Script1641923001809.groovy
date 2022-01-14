@@ -62,6 +62,8 @@ WebUI.click(findTestObject('Object Repository/Page_AI Participants/li_Student We
 
 WebUI.click(findTestObject('Object Repository/Page_AI Participants/button_Enrol users_1'))
 
+WebUI.click(findTestObject('Object Repository/Page_AI Participants/a_S'))
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AI Participants/td_s9example.com'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_AI Participants/td_s9example.com'), 's9@example.com')

@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_Add a new user'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username'), 
-    'student1')
+    'student11')
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname'), 
     'a')

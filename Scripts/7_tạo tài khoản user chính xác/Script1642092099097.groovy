@@ -36,23 +36,23 @@ WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_Add a new user'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username'), 
-    'student1')
+    username)
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword'), 
-    'xsue+lrReh6nSDZIylEEKg==')
+WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword'), 
+    password)
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname'), 
-    'Student')
+    firstname)
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Username                               _ccea4b'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname'), 
-    'Waldrop')
+    lastname)
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email'), 
-    's1@example.com')
+    email)
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton'))
 
@@ -66,9 +66,9 @@ WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Acc
 
 WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Username_username'), 'student1')
+WebUI.setText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Username_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Password_password'), 'xsue+lrReh6nSDZIylEEKg==')
+WebUI.setText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Password_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/button_Log in'))
 

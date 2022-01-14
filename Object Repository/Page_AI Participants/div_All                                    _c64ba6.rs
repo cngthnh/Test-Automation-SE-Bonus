@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641958601846_74']/div/div[2]/div</value>
+         <value>//div[@id='yui_3_17_2_1_1642092804322_1142']/div/div[3]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -78,14 +78,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641958601846_74&quot;)/div[@class=&quot;table-dynamic position-relative&quot;]/div[@class=&quot;initialbar lastinitial d-flex flex-wrap justify-content-center justify-content-md-start&quot;]/div[@class=&quot;initialbargroups d-flex flex-wrap justify-content-center justify-content-md-start&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642092804322_1142&quot;)/div[@class=&quot;table-dynamic position-relative&quot;]/div[@class=&quot;initialbar lastinitial d-flex flex-wrap justify-content-center justify-content-md-start&quot;]/div[@class=&quot;initialbargroups d-flex flex-wrap justify-content-center justify-content-md-start&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641958601846_74']/div/div[2]/div</value>
+      <value>//div[@id='yui_3_17_2_1_1642092804322_1142']/div/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +100,20 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641958601846_74']/div/div[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

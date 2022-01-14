@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_su kien 1</name>
+   <name>h3_event one</name>
    <tag></tag>
-   <elementGuidId>5e3d3cd9-e915-4b3a-b283-ff2f79034aed</elementGuidId>
+   <elementGuidId>83b6afd8-7208-40e0-8efb-30525b52fadb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='calendar-upcoming-22']/div[2]/div/div[2]/div/div/div[3]/h3</value>
+         <key>CSS</key>
+         <value>h3.name.d-inline-block</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='calendar-upcoming-22']/div[2]/div/div/div/div/div[3]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -34,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>su kien 1</value>
+      <value>event one</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,41 +49,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='calendar-upcoming-22']/div[2]/div/div[2]/div/div/div[3]/h3</value>
+      <value>//div[@id='calendar-upcoming-22']/div[2]/div/div/div/div/div[3]/h3</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhập môn trí tuệ nhân tạo'])[1]/following::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upcoming events'])[3]/following::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course event'])[1]/following::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New event'])[1]/following::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tuesday, 1 February'])[2]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tuesday, 1 February'])[1]/preceding::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='su kien 1']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='event one']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[3]/h3</value>
+      <value>//div[3]/h3</value>
    </webElementXpaths>
 </WebElementEntity>

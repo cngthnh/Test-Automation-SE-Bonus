@@ -23,11 +23,7 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/div_document.getElementById(anchor).value  _bffe56'))
-
 WebUI.setText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Username_username'), 'admin')
-
-WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/form_document.getElementById(anchor).value _70e5d4'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Password_password'), '5MU2PI2jvJCK/lBTYOwt6g==')
 
@@ -40,23 +36,56 @@ WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Search/a_Add a new user'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Username_username'), 
-    username)
+    'student11')
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/em_Click to enter text'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword'), 
-    password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_New password_newpassword'), 
+    '5MU2PI2jvJCK/lBTYOwt6g==')
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_First name_firstname'), 
-    firstname)
+    'Student')
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Surname_lastname'), 
-    lastname)
+    'Zack')
 
 WebUI.setText(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Email address_email'), 
-    email)
+    's11@example.com')
+
+WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Press enter to save changes_preferenc_a80a7a'))
 
 WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/input_Address_submitbutton'))
+
+WebUI.navigateToUrl('http://localhost/admin/user.php')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/div_Changes saved'))
+
+WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Admin User'))
+
+WebUI.click(findTestObject('Object Repository/Page_KHTN Administration Users Accounts Bro_45ce40/a_Log out'))
+
+WebUI.click(findTestObject('Object Repository/Page_HCMUS/a_Log in'))
+
+WebUI.setText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Username_username'), 'student11')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_HCMUS Log in to the site/input_Password_password'), '5MU2PI2jvJCK/lBTYOwt6g==')
+
+WebUI.click(findTestObject('Object Repository/Page_HCMUS Log in to the site/button_Log in'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Change password/div_You must change your password to proceed'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_Current password_password'), '5MU2PI2jvJCK/lBTYOwt6g==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_New password_newpassword1'), 'xsue+lrReh5yW1Jtmbf0PA==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_New password (again)_newpassword2'), 
+    'xsue+lrReh5yW1Jtmbf0PA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Change password/input_New password (again)_submitbutton'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Password has been changed/div_Password has been changed'))
+
+WebUI.click(findTestObject('Object Repository/Page_Password has been changed/button_Continue'))
 
 WebUI.closeBrowser()
 
