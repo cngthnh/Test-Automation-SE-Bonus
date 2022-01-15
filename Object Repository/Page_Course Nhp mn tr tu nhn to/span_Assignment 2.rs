@@ -6,15 +6,18 @@
    <elementGuidId>d9c749ed-3a5f-458c-9e2f-d00ee29606f9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Assignment 2' or . = 'Assignment 2')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//li[@id='module-11']/div/div/div[2]/div/a/span</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
