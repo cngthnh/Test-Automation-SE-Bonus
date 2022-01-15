@@ -819,6 +819,176 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Nhp mn tr tu nhn to/button_Done_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to_1",
+      "brokenLocator": "//div[@id\u003d\u0027frontpage-available-course-list\u0027]/div/div/div/h3/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a.aalink",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to_1_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to",
+      "brokenLocator": "//div[@id\u003d\u0027frontpage-available-course-list\u0027]/div/div/div/h3/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a.aalink",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HCMUS/a_Nhp mn tr tu nhn to_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_This username already exists, choose another_1",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Username\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_This username already exists, choose another_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must be at least 8 characters long",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_newpassword\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Press enter to save changes\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must be at least 8 characters long_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 digit(s)",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_newpassword\u0027]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Press enter to save changes\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 digit(s)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 upper ca_8e926f",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_newpassword\u0027]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Force password change\u0027])[1]/preceding::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_Passwords must have at least 1 upper ca_8e926f_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Missing given name",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_firstname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027First name\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Missing given name_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Missing surname",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_lastname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Surname\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Missing surname_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Required",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email address\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Administration Users Accounts Add_aad8ed/div_- Required_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Add a new course/div_Short name is already used for another _0ec0da",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_shortname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Course short name\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Add a new course/div_Short name is already used for another _0ec0da_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Add a new course/div_- Missing full name",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_fullname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Course full name\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Add a new course/div_- Missing full name_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Add a new course/div_- Missing short name",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_shortname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Course short name\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Add a new course/div_- Missing short name_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_AI Calendar Detailed month view January 2022/div_- Required",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Event title\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_AI Calendar Detailed month view January 2022/div_- Required_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Announcements/div_- Required",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_message\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Message\u0027])[1]/following::div[23]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Announcements/div_- Required_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_KHTN Add new category/div_Required",
+      "brokenLocator": "//div[@id\u003d\u0027id_error_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027fitem_id_name\u0027]/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_KHTN Add new category/div_Required_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Backup activity Forum 1/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61debc7e2875f15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[3]/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Backup activity Forum 1/button_Continue_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_AI Restore/button_Continue_1",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61debd808e03d14\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[3]/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_AI Restore/button_Continue_1_idRelative.png"
     }
   ]
 }
