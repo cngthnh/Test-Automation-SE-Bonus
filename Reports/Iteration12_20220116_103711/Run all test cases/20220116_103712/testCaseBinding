@@ -1,0 +1,62 @@
+{"testCaseName":"Test Cases/1_admin đăng nhập thành công","testCaseId":"Test Cases/1_admin đăng nhập thành công"}
+{"testCaseName":"Test Cases/2_admin đăng nhập thất bại","testCaseId":"Test Cases/2_admin đăng nhập thất bại"}
+{"testCaseName":"Test Cases/3_tạo tài khoản và bắt buộc thay đổi mật khẩu","testCaseId":"Test Cases/3_tạo tài khoản và bắt buộc thay đổi mật khẩu"}
+{"testCaseName":"Test Cases/4_tạo tài khoản user với username đã tồn tại","testCaseId":"Test Cases/4_tạo tài khoản user với username đã tồn tại"}
+{"testCaseName":"Test Cases/5_tạo tài khoản với mật khẩu không theo chuẩn","testCaseId":"Test Cases/5_tạo tài khoản với mật khẩu không theo chuẩn"}
+{"testCaseName":"Test Cases/6_tạo tài khoản thiếu thuộc tính bắt buộc","testCaseId":"Test Cases/6_tạo tài khoản thiếu thuộc tính bắt buộc"}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 1","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent1#\u0027","email":"\u0027s1@example.com\u0027","username":"\u0027student1\u0027","lastname":"\u0027Waldrop\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 2","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent2#\u0027","email":"\u0027s2@example.com\u0027","username":"\u0027student2\u0027","lastname":"\u0027Epperson\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 3","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent3#\u0027","email":"\u0027s3@example.com\u0027","username":"\u0027student3\u0027","lastname":"\u0027Walston\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 4","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent4#\u0027","email":"\u0027s4@example.com\u0027","username":"\u0027student4\u0027","lastname":"\u0027Tremblay\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 5","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent5#\u0027","email":"\u0027s5@example.com\u0027","username":"\u0027student5\u0027","lastname":"\u0027Weller\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 6","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent6#\u0027","email":"\u0027s6@example.com\u0027","username":"\u0027student6\u0027","lastname":"\u0027Haller\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 7","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent7#\u0027","email":"\u0027s7@example.com\u0027","username":"\u0027student7\u0027","lastname":"\u0027Venegas\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 8","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent8#\u0027","email":"\u0027s8@example.com\u0027","username":"\u0027student8\u0027","lastname":"\u0027Clifford\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 9","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent9#\u0027","email":"\u0027s9@example.com\u0027","username":"\u0027student9\u0027","lastname":"\u0027Branch\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 10","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Student\u0027","password":"\u0027Mstudent10#\u0027","email":"\u0027s10@example.com\u0027","username":"\u0027student10\u0027","lastname":"\u0027Kessler\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 11","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Teacher\u0027","password":"\u0027Mteacher1#\u0027","email":"\u0027t1@example.com\u0027","username":"\u0027teacher1\u0027","lastname":"\u0027Hubbard\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 12","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Teacher\u0027","password":"\u0027Mteacher2#\u0027","email":"\u0027t2@example.com\u0027","username":"\u0027teacher2\u0027","lastname":"\u0027Morrill\u0027"}}
+{"testCaseName":"Test Cases/7_tạo tài khoản user chính xác - Iteration 13","testCaseId":"Test Cases/7_tạo tài khoản user chính xác","bindedValues":{"firstname":"\u0027Teacher\u0027","password":"\u0027Mteacher3#\u0027","email":"\u0027t3@example.com\u0027","username":"\u0027teacher3\u0027","lastname":"\u0027Quarles\u0027"}}
+{"testCaseName":"Test Cases/8_admin kiểm tra thẻ site administration","testCaseId":"Test Cases/8_admin kiểm tra thẻ site administration"}
+{"testCaseName":"Test Cases/9_tạo 1 course thành công","testCaseId":"Test Cases/9_tạo 1 course thành công"}
+{"testCaseName":"Test Cases/10_tạo course với thuộc tính bị trùng","testCaseId":"Test Cases/10_tạo course với thuộc tính bị trùng"}
+{"testCaseName":"Test Cases/11_tạo course với thuộc tính rỗng","testCaseId":"Test Cases/11_tạo course với thuộc tính rỗng"}
+{"testCaseName":"Test Cases/12_thêm sinh viên vào course","testCaseId":"Test Cases/12_thêm sinh viên vào course"}
+{"testCaseName":"Test Cases/13_thêm giáo viên vào course","testCaseId":"Test Cases/13_thêm giáo viên vào course"}
+{"testCaseName":"Test Cases/14_tìm kiếm theo vai trò","testCaseId":"Test Cases/14_tìm kiếm theo vai trò"}
+{"testCaseName":"Test Cases/15_thêm lịch cho 1 course thành công","testCaseId":"Test Cases/15_thêm lịch cho 1 course thành công"}
+{"testCaseName":"Test Cases/16_thêm lịch cho 1 course với tiêu đề rỗng","testCaseId":"Test Cases/16_thêm lịch cho 1 course với tiêu đề rỗng"}
+{"testCaseName":"Test Cases/17_xem điểm của 1 course","testCaseId":"Test Cases/17_xem điểm của 1 course"}
+{"testCaseName":"Test Cases/18_Giáo viên thêm quiz với thời gian đóng ở quá khứ","testCaseId":"Test Cases/18_Giáo viên thêm quiz với thời gian đóng ở quá khứ"}
+{"testCaseName":"Test Cases/19_Giáo viên thêm quiz với thông tin chính xác","testCaseId":"Test Cases/19_Giáo viên thêm quiz với thông tin chính xác"}
+{"testCaseName":"Test Cases/20_Giáo viên thêm câu hỏi cho quiz","testCaseId":"Test Cases/20_Giáo viên thêm câu hỏi cho quiz"}
+{"testCaseName":"Test Cases/21_Giáo viên thêm survey","testCaseId":"Test Cases/21_Giáo viên thêm survey"}
+{"testCaseName":"Test Cases/22_Giáo viên thêm forum","testCaseId":"Test Cases/22_Giáo viên thêm forum"}
+{"testCaseName":"Test Cases/23_Giáo viên thêm url","testCaseId":"Test Cases/23_Giáo viên thêm url"}
+{"testCaseName":"Test Cases/24_Sinh viên làm quiz","testCaseId":"Test Cases/24_Sinh viên làm quiz"}
+{"testCaseName":"Test Cases/25_Giáo viên xem điểm quiz","testCaseId":"Test Cases/25_Giáo viên xem điểm quiz"}
+{"testCaseName":"Test Cases/26_Sinh viên mở đề tài thảo luận không có tiêu đề","testCaseId":"Test Cases/26_Sinh viên mở đề tài thảo luận không có tiêu đề"}
+{"testCaseName":"Test Cases/27_Sinh viên mở một đề tài thảo luận với thông tin chính xác","testCaseId":"Test Cases/27_Sinh viên mở một đề tài thảo luận với thông tin chính xác"}
+{"testCaseName":"Test Cases/28_Giáo viên tạo assignment với giới hạn từ là số âm","testCaseId":"Test Cases/28_Giáo viên tạo assignment với giới hạn từ là số âm"}
+{"testCaseName":"Test Cases/29_Giáo viên tạo assignment với các thông tin chính xác","testCaseId":"Test Cases/29_Giáo viên tạo assignment với các thông tin chính xác"}
+{"testCaseName":"Test Cases/30_Giáo viên tạo announcement thêm thiếu message","testCaseId":"Test Cases/30_Giáo viên tạo announcement thêm thiếu message"}
+{"testCaseName":"Test Cases/31_Giáo viên tạo annoucement với thông tin đầy đủ","testCaseId":"Test Cases/31_Giáo viên tạo annoucement với thông tin đầy đủ"}
+{"testCaseName":"Test Cases/32_Sinh viên nộp bài rỗng","testCaseId":"Test Cases/32_Sinh viên nộp bài rỗng"}
+{"testCaseName":"Test Cases/33_Sinh viên nộp bài đúng hạn","testCaseId":"Test Cases/33_Sinh viên nộp bài đúng hạn"}
+{"testCaseName":"Test Cases/34_Sinh viên gửi lời mời kết bạn","testCaseId":"Test Cases/34_Sinh viên gửi lời mời kết bạn"}
+{"testCaseName":"Test Cases/35_Sinh viên chấp nhận lời mời kết bạn","testCaseId":"Test Cases/35_Sinh viên chấp nhận lời mời kết bạn"}
+{"testCaseName":"Test Cases/37_Sinh viên xem event trên lịch","testCaseId":"Test Cases/37_Sinh viên xem event trên lịch"}
+{"testCaseName":"Test Cases/36_Sinh viên nhắn tin cho nhau","testCaseId":"Test Cases/36_Sinh viên nhắn tin cho nhau"}
+{"testCaseName":"Test Cases/38_Giáo viên thêm một thư mục vào môn học","testCaseId":"Test Cases/38_Giáo viên thêm một thư mục vào môn học"}
+{"testCaseName":"Test Cases/39_Giáo viên pin một discussion trong forum","testCaseId":"Test Cases/39_Giáo viên pin một discussion trong forum"}
+{"testCaseName":"Test Cases/40_Admin thêm danh mục với tên trống","testCaseId":"Test Cases/40_Admin thêm danh mục với tên trống"}
+{"testCaseName":"Test Cases/41_Admin thêm danh mục với thông tin chính xác","testCaseId":"Test Cases/41_Admin thêm danh mục với thông tin chính xác"}
+{"testCaseName":"Test Cases/42_Sinh viên trả lời một cuộc thảo luận trong diễn đàn","testCaseId":"Test Cases/42_Sinh viên trả lời một cuộc thảo luận trong diễn đàn"}
+{"testCaseName":"Test Cases/43_Giáo viên backup forum môn học","testCaseId":"Test Cases/43_Giáo viên backup forum môn học"}
+{"testCaseName":"Test Cases/44_Giáo viên restore forum môn học","testCaseId":"Test Cases/44_Giáo viên restore forum môn học"}
+{"testCaseName":"Test Cases/45_Admin chỉnh sửa thông tin của một user","testCaseId":"Test Cases/45_Admin chỉnh sửa thông tin của một user"}
+{"testCaseName":"Test Cases/46_Sinh viên xem profile của người khác trong cùng khoá học","testCaseId":"Test Cases/46_Sinh viên xem profile của người khác trong cùng khoá học"}
+{"testCaseName":"Test Cases/47_Sinh viên trả lời khảo sát trong môn học","testCaseId":"Test Cases/47_Sinh viên trả lời khảo sát trong môn học"}
+{"testCaseName":"Test Cases/48_Sinh viên đánh dấu đã xong một đối tượng trong môn học","testCaseId":"Test Cases/48_Sinh viên đánh dấu đã xong một đối tượng trong môn học"}
+{"testCaseName":"Test Cases/49_Giáo viên lock một discussion trong forum môn học","testCaseId":"Test Cases/49_Giáo viên lock một discussion trong forum môn học"}
+{"testCaseName":"Test Cases/50_Sinh viên chỉnh sửa thông tin cá nhân của mình","testCaseId":"Test Cases/50_Sinh viên chỉnh sửa thông tin cá nhân của mình"}
